@@ -1,0 +1,57 @@
+<html lang="en">                                   <!-- starts HTML and specifies the language!-->
+   <head>                                          <!--container for metadata (data about data) and is placed between the <html> tag and the <body> tag!-->
+      <link rel='stylesheet' href='styles.css'>    <!--loads the styles.css file from the same folder !-->
+      <title>CRUD template</title>                 <!--required in HTML documents and used to define the title of the document!-->
+   </head>                                         <!--ends the head container!-->
+<body>
+   <script >
+      function submitorder() {
+         alert( 'Order is processing');
+      }
+   </script>
+      <center>
+         <img src="/CRUD Project/balls2.png" border="0px" 
+               width="800px" height="400px" >
+      </center>
+      <br>
+      <br>
+      <center>
+         <form action='create.php' method = 'post'><!--needed to send/post info to php file !-->
+            <input type='text' placeholder='Name' name='lastName' class="advancedSearchTextBox">
+            <select id='select' name='balltype'>
+                 <option value="Golfball" >Golfball</option>
+                 <option value="Basketball" >Basketball</option>
+                 <option value="Baseball" >Baseball</option>
+                 <option value="Tennisball" >Tennisball</option>
+                 <option value="Soccerball" >Soccerball</option>
+                 <option value="Football" >Football</option>
+                 <option value="Volleyball" >Volleyball</option>
+            </select>
+           <select id='select' name='amount'>
+                 <option value="1" >1</option>
+                 <option value="3" >3</option>
+                 <option value="5" >5</option>
+                 <option value="10" >10</option>
+                 <option value="15" >15</option>
+                 <option value="20" >20</option>
+            </select>
+            <input name = 'create' type = 'submit' value = 'Submit Order' onclick="submitorder()">
+         </form>
+         Find the list of orders for:
+         <form action= 'read.php' method = 'post'>
+            <select id='select' name='balltype'>
+               <option value="Golfball" >Golfball</option>
+               <option value="Basketball" >Basketball</option>
+               <option value="Baseball" >Baseball</option>
+               <option value="Tennisball" >Tennisball</option>
+               <option value="Soccerball" >Soccerball</option>
+               <option value="Football" >Football</option>
+               <option value="Volleyball" >Volleyball</option>
+               
+            </select>
+               <p></p>
+            <input name = 'read'   type = 'submit' value = 'Find List Info'>
+         </form>
+      </center>
+   </body>
+</html>

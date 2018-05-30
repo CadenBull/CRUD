@@ -13,7 +13,7 @@ This program was created to allow people to order sports balls with ease. First 
 First the user inputs thier name, then selects the type of ball and quantity from the dropdown boxes. When they click submit order, the order is placed in the php in the list of orders to complete.
 To see the orders that have been inputted into the database, on the homescreen, select a prduct to see from the dropdown and click "Find Order Info". This will take you to a page where you can see the orders that have been made, delete them, and edit them to change the amount or type of ball.
 # Programs and Languages used
-This program was developed in cloud9 IDE, it uses php, css, java, and html. The html is used to display the information and layout along with the image. css is used to display the colors of the background, text, and table. php is used to input, store, and reference as a database, the information is put into a table that works with the html.
+This program was developed in cloud9 IDE, it uses php, css, java, and html. The html is used to display the information and layout along with the image. css is used to display the colors of the background, text, and table. php is used to input, store, and reference as a database, the information is put into a table that works with the html. java is used to display to the user that their order is processing and being placed into the order list.
 # Author
 Author: Caden Bullard
 

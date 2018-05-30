@@ -7,7 +7,9 @@ This program was created to allow people to order sports balls with ease. First 
 This program was developed in cloud9 IDE, it uses php, css, java, and html. The html is used to display the information and layout along with the image. css is used to display the colors of the background, text, and table. php is used to input, store, and reference as a database, the information is put into a table that works with the html.
 # Author
 Author: Caden Bullard
+
 Created for: AP Computer Science Principles
+
 About: My name is Caden Bullard and I am currently a junior at Shakopee High School. I am a beginner programmer taking AP Computer Science Principles. I am learning how to use python, html, php, css, and java to make programs. 
 # Instuctions to download
 1) Download all of the files and put them into a folder.
